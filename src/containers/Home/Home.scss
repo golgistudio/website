@@ -2,12 +2,12 @@
 
 .home {
   dd {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
 .masthead {
-  background: #2d2d2d;
-  padding: 40px 20px;
+  background: #999;
+  padding: 40px 20px 0px 20px;
   color: white;
   text-align: center;
   .logo {
@@ -57,4 +57,10 @@
 .counterContainer {
   text-align: center;
   margin: 20px;
+}
+
+.city img {
+  width: 100%;
+  margin: auto;
+  height: 200px;
 }
