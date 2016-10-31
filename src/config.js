@@ -16,16 +16,16 @@ module.exports = Object.assign({
   apiPort: process.env.APIPORT,
   app: {
     title: 'Golgi Studio',
-    description: 'Creating software to help you make the world a better place.',
+    description: 'Crafting software to help you make the world a better place.',
     head: {
-      titleTemplate: 'React Redux Example: %s',
+      titleTemplate: 'Golgi Studio: %s',
       meta: [
-        {name: 'description', content: 'Creating software to help you make the world a better place.'},
+        {name: 'description', content: 'Crafting software to help you make the world a better place.'},
         {charset: 'utf-8'},
-        {property: 'og:site_name', content: 'React Redux Example'},
-        {property: 'og:image', content: 'https://react-redux.herokuapp.com/logo.jpg'},
+        {property: 'og:site_name', content: 'Golgi Studio'},
+        {property: 'og:image', content: '/favicon.ico'},
         {property: 'og:locale', content: 'en_US'},
-        {property: 'og:title', content: 'React Redux Example'},
+        {property: 'og:title', content: 'Golgi Studio'},
         {property: 'og:description', content: 'All the modern best practices in one example.'},
         {property: 'og:card', content: 'summary'},
         {property: 'og:site', content: '@erikras'},

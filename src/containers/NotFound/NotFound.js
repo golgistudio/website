@@ -1,10 +1,14 @@
 import React from 'react';
 
 export default function NotFound() {
+  const styles = require('./notFound.scss');
   return (
-    <div className="container">
-      <h1>Doh! 404!</h1>
-      <p>These are <em>not</em> the droids you are looking for!</p>
+     <div className={styles.notFound}>
+      <span className={styles.error}>
+        <h1>Oops!</h1>
+        <h3>Wrong turn - nothing to see down this road</h3>
+      </span>
+      <img src="./cityStreet.jpg" alt="not found" />
     </div>
   );
 }

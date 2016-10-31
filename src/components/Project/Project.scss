@@ -1,0 +1,56 @@
+.project {
+  height: 300px;
+  width: 95%;
+  margin: 50px auto 100px auto;
+  box-sizing: content-box;
+}
+
+.projectScreenshot {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: solid 1px lightgray;
+  width: 450px;
+  box-shadow: 7px 7px 2px #888888;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  img {
+    width: 100%;
+  }
+}
+
+.projectInfo {
+  float: left;
+  margin-top: 10px;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.projectTitle {
+ font-size: 2.5em; 
+}
+
+.projectDescription {
+  font-size: 1.5em;
+}
+
+.projectDemo {
+  float: left;
+  font-size: 1.5em;
+}
+
+.projectSrc {
+  float: left;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+.projectLink {
+
+}
+
+.projectLinkGroup {
+  width: 200px;
+  margin-top: 10px;
+}
