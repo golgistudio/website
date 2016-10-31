@@ -86,6 +86,9 @@ export default class App extends Component {
               <NavItem eventKey={2} target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/lauriesreynolds">
                 <i className="fa fa-linkedin"/>
               </NavItem>
+              <NavItem eventKey={2} target="_blank" title="Codepen" href="http://codepen.io/LaurieReynolds/">
+                <i className="fa fa-codepen"/>
+              </NavItem>
               <NavItem eventKey={3} title="Contact Laurie" href="mailto:lauriesreynolds@gmail.com?Subject=Golgi%20Studio%20inquiry">
                 <i className="fa fa-envelope-o"/>
               </NavItem>
